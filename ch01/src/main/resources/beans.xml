@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 装配各种bean对象 -->
+    <!-- id 唯一装配的容器中的唯一标识 class Bean的完整类名
+    Spring 会使用完整类名进行反射创建实例纳入容器中管理 -->
+    <bean id="userService" class="top.lldwb.spring.ch01.service.impl.UserServiceImpl"/>
+    <!-- 装配自定义工厂，spring会将我们编写的工厂类纳入容器管理，命名为 xxxFactoryBean -->
+    <bean id="daoFactoryBean" class="top.lldwb.spring.ch01.factory.DaoFactory"/>
+    <!-- 告诉spring使用我们自定义的工厂来创建实例
+         factory-bean 引用上面自定义工厂的id
+         factory-method 指定工厂中的方法名
+         -->
+    <bean id="userDao" factory-bean="daoFactoryBean" factory-method="getUserDao"/>
+</beans>

@@ -1,0 +1,58 @@
+2023-09-22 09:52:52 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 09:52:52 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-22 09:52:52 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 09:52:52 [main] INFO top.lldwb.spring.ch01.service.impl.UserServiceImpl - 1234
+2023-09-22 09:52:52 [main] INFO top.lldwb.spring.ch01.service.impl.UserServiceImpl - 1234
+2023-09-22 09:54:28 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 09:54:28 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-22 09:54:28 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 09:54:28 [main] INFO top.lldwb.spring.ch01.service.impl.UserServiceImpl - 1234
+2023-09-22 09:54:28 [main] INFO top.lldwb.spring.ch01.service.impl.UserServiceImpl - 1234
+2023-09-22 09:54:28 [main] INFO top.lldwb.spring.ch01.service.impl.UserServiceImpl - 1234
+2023-09-22 10:07:22 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:07:22 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [beans.xml]
+2023-09-22 10:07:22 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:07:22 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactory'
+2023-09-22 10:09:34 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:09:34 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [beans.xml]
+2023-09-22 10:09:34 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:09:34 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
+2023-09-22 10:11:31 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:11:31 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [beans.xml]
+2023-09-22 10:11:31 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:11:31 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
+2023-09-22 10:11:31 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-22 10:12:33 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:12:33 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [beans.xml]
+2023-09-22 10:12:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:12:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
+2023-09-22 10:12:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-22 10:12:33 [main] INFO top.lldwb.spring.ch01.service.impl.UserServiceImpl - 1234
+2023-09-22 10:12:33 [main] INFO top.lldwb.spring.ch01.service.impl.UserServiceImpl - 1234
+2023-09-22 10:12:33 [main] INFO top.lldwb.spring.ch01.service.impl.UserServiceImpl - 1234
+2023-09-22 10:12:38 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:12:38 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [beans.xml]
+2023-09-22 10:12:38 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:12:38 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
+2023-09-22 10:12:38 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-22 10:32:19 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:32:19 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [beans.xml]
+2023-09-22 10:32:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:32:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
+2023-09-22 10:32:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-22 10:32:43 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:32:43 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [beans.xml]
+2023-09-22 10:32:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:32:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
+2023-09-22 10:32:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-22 10:32:56 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:32:56 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [beans.xml]
+2023-09-22 10:32:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:32:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
+2023-09-22 10:32:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-22 10:33:28 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:33:28 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [beans.xml]
+2023-09-22 10:33:28 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:33:28 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
+2023-09-22 10:33:28 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-22 10:33:28 [main] INFO top.lldwb.spring.ch01.dao.impl.UserDaoImpl - 2124
