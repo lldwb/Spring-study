@@ -56,3 +56,10 @@
 2023-09-22 10:33:28 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
 2023-09-22 10:33:28 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
 2023-09-22 10:33:28 [main] INFO top.lldwb.spring.ch01.dao.impl.UserDaoImpl - 2124
+2023-09-22 10:43:13 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@185a6e9
+2023-09-22 10:43:13 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 4 bean definitions from class path resource [beans.xml]
+2023-09-22 10:43:13 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-22 10:43:13 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'daoFactoryBean'
+2023-09-22 10:43:13 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-22 10:43:13 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDaoS'
+2023-09-22 10:43:13 [main] INFO top.lldwb.spring.ch01.dao.impl.UserDaoImplS - 成功

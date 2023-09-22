@@ -12,6 +12,7 @@ class DaoFactoryTest {
     @Test
     void getUserDao() {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-        context.getBean("userDao", UserDao.class).setUserList();
+//        context.getBean("userDao", UserDao.class).setUserList();
+        context.getBean("userDaoS", UserDao.class).setUserList();
     }
 }
