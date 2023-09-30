@@ -1,0 +1,42 @@
+2023-09-25 08:48:05 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9d5509a
+2023-09-25 08:48:05 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 08:48:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 08:48:05 [main] INFO top.lldwb.spring.ch02.service.UserServiceTest - 1312
+2023-09-25 08:51:29 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9d5509a
+2023-09-25 08:51:29 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 08:51:30 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 08:51:30 [main] INFO top.lldwb.spring.ch02.service.UserServiceTest - 1312
+2023-09-25 08:51:30 [main] INFO top.lldwb.spring.ch02.service.UserServiceTest - 1510398
+2023-09-25 08:51:46 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9d5509a
+2023-09-25 08:51:46 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 08:51:46 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 08:51:46 [main] INFO top.lldwb.spring.ch02.service.UserServiceTest - 1312
+2023-09-25 08:51:46 [main] INFO top.lldwb.spring.ch02.service.UserServiceTest - true
+2023-09-25 08:53:04 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9d5509a
+2023-09-25 08:53:04 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 08:53:04 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 08:53:04 [main] INFO top.lldwb.spring.ch02.service.UserServiceTest - 1312
+2023-09-25 08:53:04 [main] INFO top.lldwb.spring.ch02.service.UserServiceTest - true
+2023-09-25 08:53:04 [main] INFO top.lldwb.spring.ch02.service.UserServiceTest - false
+2023-09-25 08:56:07 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9d5509a
+2023-09-25 08:56:07 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 08:56:07 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 08:56:07 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - 1312
+2023-09-25 08:56:07 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - true
+2023-09-25 08:56:07 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - false
+2023-09-25 08:56:07 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - UserService(string=1312)
+2023-09-25 09:02:32 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9d5509a
+2023-09-25 09:02:32 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 09:02:32 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - null
+2023-09-25 09:02:32 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - true
+2023-09-25 09:02:32 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - true
+2023-09-25 09:03:00 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9d5509a
+2023-09-25 09:03:00 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 09:03:00 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - null
+2023-09-25 09:03:00 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - true
+2023-09-25 09:03:00 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - true
+2023-09-25 09:03:00 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - false
+2023-09-25 09:06:34 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9d5509a
+2023-09-25 09:06:34 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 09:06:34 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - null
+2023-09-25 09:06:34 [main] DEBUG top.lldwb.spring.ch02.service.UserServiceTest - false

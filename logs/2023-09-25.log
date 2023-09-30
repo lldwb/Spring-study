@@ -1,0 +1,119 @@
+2023-09-25 09:34:35 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 09:34:35 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 09:34:35 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'service1'
+2023-09-25 09:34:36 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 09:34:54 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 09:34:54 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 09:34:54 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'service1'
+2023-09-25 09:34:54 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 09:34:54 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 09:34:54 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 10:34:01 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:34:02 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:34:02 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'service1'
+2023-09-25 10:34:02 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 10:34:02 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 10:34:02 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 10:35:12 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:35:12 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:35:12 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'service1'
+2023-09-25 10:35:12 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 10:35:12 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 10:35:12 [main] INFO top.lldwb.spring.ch03.service.UserService - 输出save
+2023-09-25 10:36:06 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:36:06 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:36:06 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 10:36:06 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 10:37:03 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:37:03 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:37:03 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 10:37:03 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化(UserService)
+2023-09-25 10:37:03 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化(afterPropertiesSet)
+2023-09-25 10:37:59 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:37:59 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:37:59 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化)
+2023-09-25 10:37:59 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 10:43:19 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:43:30 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:43:30 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:43:30 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 10:43:30 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 10:43:30 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 10:43:30 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 10:52:05 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:52:05 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:52:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 10:52:05 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 10:52:05 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 10:52:05 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 10:52:46 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:52:46 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:52:46 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 10:52:46 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 10:52:46 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 10:52:46 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 10:52:46 [main] INFO top.lldwb.spring.ch04.Main - 24
+2023-09-25 10:56:07 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:56:07 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:56:07 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 10:56:07 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 10:56:07 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 10:56:07 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 10:56:07 [main] INFO top.lldwb.spring.ch04.Main - 24
+2023-09-25 10:56:43 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 10:56:43 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 10:56:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 10:56:43 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 10:56:43 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 10:56:43 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 10:56:43 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e, started on Mon Sep 25 10:56:43 CST 2023
+2023-09-25 10:56:43 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 销毁
+2023-09-25 10:56:43 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 自定义销毁
+2023-09-25 10:56:43 [main] INFO top.lldwb.spring.ch04.Main - 24
+2023-09-25 11:00:11 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 11:00:11 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 11:00:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-25 11:00:11 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 11:00:11 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 11:00:11 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 11:00:11 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e, started on Mon Sep 25 11:00:11 CST 2023
+2023-09-25 11:00:11 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 销毁
+2023-09-25 11:00:11 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 自定义销毁
+2023-09-25 11:00:11 [main] INFO top.lldwb.spring.ch04.Main - 24
+2023-09-25 11:00:33 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 11:00:33 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 11:00:33 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e, started on Mon Sep 25 11:00:33 CST 2023
+2023-09-25 11:00:33 [main] INFO top.lldwb.spring.ch04.Main - 24
+2023-09-25 11:01:41 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 11:01:41 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 11:01:41 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 11:01:41 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 11:01:41 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 11:01:41 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e, started on Mon Sep 25 11:01:41 CST 2023
+2023-09-25 11:01:41 [main] INFO top.lldwb.spring.ch04.Main - 24
+2023-09-25 11:14:58 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 11:14:58 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [beans.xml]
+2023-09-25 11:14:58 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 11:14:58 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 11:14:58 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 11:14:58 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e, started on Mon Sep 25 11:14:58 CST 2023
+2023-09-25 11:14:58 [main] INFO top.lldwb.spring.ch04.Main - 24
+2023-09-25 11:16:34 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 11:16:34 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [beans.xml]
+2023-09-25 11:16:34 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'top.lldwb.spring.ch04.processor.MyBeanPostProcessor#0'
+2023-09-25 11:16:34 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 11:16:34 [main] DEBUG top.lldwb.spring.ch04.processor.MyBeanPostProcessor - postProcessBeforeInitialization
+2023-09-25 11:16:34 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 11:16:34 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 11:16:34 [main] DEBUG top.lldwb.spring.ch04.processor.MyBeanPostProcessor - postProcessAfterInitialization
+2023-09-25 11:16:34 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e, started on Mon Sep 25 11:16:34 CST 2023
+2023-09-25 11:16:34 [main] INFO top.lldwb.spring.ch04.Main - 24
+2023-09-25 15:15:27 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e
+2023-09-25 15:15:27 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [beans.xml]
+2023-09-25 15:15:27 [main] DEBUG top.lldwb.spring.ch04.service.UserService - 初始化
+2023-09-25 15:15:27 [main] DEBUG top.lldwb.spring.ch04.processor.MyBeanPostProcessor - postProcessBeforeInitialization
+2023-09-25 15:15:27 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSet
+2023-09-25 15:15:27 [main] DEBUG top.lldwb.spring.ch04.service.UserService - Bean初始化,执行afterPropertiesSets
+2023-09-25 15:15:27 [main] DEBUG top.lldwb.spring.ch04.processor.MyBeanPostProcessor - postProcessAfterInitialization
+2023-09-25 15:15:27 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3043fe0e, started on Mon Sep 25 15:15:27 CST 2023
+2023-09-25 15:15:27 [main] INFO top.lldwb.spring.ch04.Main - 24

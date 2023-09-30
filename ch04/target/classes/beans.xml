@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 装配 UserService bean的初始化方法有两种方式(一般二选一，但是可以都存在，顺序为1先2后，框架优先自定义后)
+     1. 实现 InitializingBean 接口，接口包含一个 afterProperties 方法
+     2. 自定义初始化方法，并通过 init-method 属性来指定即可 -->
+    <!-- 销毁方法(两种方式)(框架优先自定义后)
+     1. 实现 DisposableBean 接口，接口包含一个 destroy 方法
+     2. 自定义销毁方法，并通过 destroy-method 属性 -->
+<bean id="userService" class="top.lldwb.spring.ch04.service.UserService" init-method="afterPropertiesSets" destroy-method="destroys" scope="singleton"/>
+    <!-- 装配后置处理器，在初始化方法执行前的和执行后执行 -->
+    <bean class="top.lldwb.spring.ch04.processor.MyBeanPostProcessor" scope="singleton"/>
+    <!-- 总结：对象构造方法 -> 后置处理器的 postProcessBeforeInitialization 方法 -> Bean 初始化方法(框架优先自定义后) -> 后置处理器的 postProcessAfterInitialization 方法 -> Bean 销毁方法(框架优先自定义后) -->
+</beans>

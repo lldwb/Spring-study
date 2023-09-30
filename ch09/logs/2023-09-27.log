@@ -1,0 +1,88 @@
+2023-09-27 15:19:23 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a92d536b
+2023-09-27 15:19:24 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\controller\UserController.class]
+2023-09-27 15:19:24 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoFImpl.class]
+2023-09-27 15:19:24 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoImpl.class]
+2023-09-27 15:19:24 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\service\impl\UserServiceImpl.class]
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userController'
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-27 15:19:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDaoFImpl'
+2023-09-27 15:19:24 [main] DEBUG org.example.controller.UserController - UserController
+2023-09-27 15:19:24 [main] DEBUG org.example.service.impl.UserServiceImpl - UserServiceImpl
+2023-09-27 15:19:24 [main] DEBUG org.example.dao.impl.UserDaoImpl - UserDaoImpl
+2023-09-27 15:25:19 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@803ee0ca
+2023-09-27 15:25:19 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\controller\UserController.class]
+2023-09-27 15:25:19 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoFImpl.class]
+2023-09-27 15:25:19 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoImpl.class]
+2023-09-27 15:25:19 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\service\impl\UserServiceImpl.class]
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userController'
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-27 15:25:19 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDaoFImpl'
+2023-09-27 15:25:19 [main] DEBUG org.example.controller.UserController - UserController
+2023-09-27 15:25:19 [main] DEBUG org.example.service.impl.UserServiceImpl - UserServiceImpl
+2023-09-27 15:25:19 [main] DEBUG org.example.dao.impl.UserDaoImpl - UserDaoImpl
+2023-09-27 15:31:35 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b3171c8
+2023-09-27 15:31:35 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\controller\UserController.class]
+2023-09-27 15:31:35 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoFImpl.class]
+2023-09-27 15:31:35 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoImpl.class]
+2023-09-27 15:31:35 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\service\impl\UserServiceImpl.class]
+2023-09-27 15:31:35 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-09-27 15:31:35 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-09-27 15:31:35 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-09-27 15:31:35 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-09-27 15:31:35 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-09-27 15:31:35 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-09-27 15:31:35 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userController'
+2023-09-27 15:31:35 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-27 15:31:35 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through method 'setUserService' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\service\impl\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.example.dao.UserDao' available: expected single matching bean but found 2: userDaoFImpl,userDao
+2023-09-27 15:35:52 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75472a65
+2023-09-27 15:35:53 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\controller\UserController.class]
+2023-09-27 15:35:53 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoFImpl.class]
+2023-09-27 15:35:53 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoImpl.class]
+2023-09-27 15:35:53 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\service\impl\UserServiceImpl.class]
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userController'
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'userService' via constructor to bean named 'userDao'
+2023-09-27 15:35:53 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDaoFImpl'
+2023-09-27 15:35:53 [main] DEBUG org.example.controller.UserController - UserController
+2023-09-27 15:35:53 [main] DEBUG org.example.service.impl.UserServiceImpl - UserServiceImpl
+2023-09-27 15:35:53 [main] DEBUG org.example.dao.impl.UserDaoImpl - UserDaoImpl
+2023-09-27 15:36:35 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@ccc3d3a3
+2023-09-27 15:36:36 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\controller\UserController.class]
+2023-09-27 15:36:36 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoFImpl.class]
+2023-09-27 15:36:36 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\dao\impl\UserDaoImpl.class]
+2023-09-27 15:36:36 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch09\target\classes\org\example\service\impl\UserServiceImpl.class]
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userController'
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDao'
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'userService' via constructor to bean named 'userDao'
+2023-09-27 15:36:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userDaoFImpl'
+2023-09-27 15:36:36 [main] DEBUG org.example.controller.UserController - UserController
+2023-09-27 15:36:36 [main] DEBUG org.example.service.impl.UserServiceImpl - UserServiceImpl
+2023-09-27 15:36:36 [main] DEBUG org.example.dao.impl.UserDaoImpl - UserDaoImpl
