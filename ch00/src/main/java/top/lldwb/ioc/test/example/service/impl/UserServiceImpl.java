@@ -14,7 +14,7 @@ import top.lldwb.ioc.test.example.service.UserService;
 @RequiredArgsConstructor
 @Slf4j
 public class UserServiceImpl implements UserService {
-    @Inject
+    @Inject("userDao")
     private UserDao userDao;
 
 //    @Autowired

@@ -11,7 +11,7 @@ import top.lldwb.ioc.test.example.dao.UserDao;
  */
 //@Component("userDao")
 //@Repository 持久层(dao)专属注解，取代 @Component
-@Bean("userDao")
+@Bean(value = "userDao",sole = false)
 //@Named("userDao")
 @Slf4j
 public class UserDaoImpl implements UserDao {

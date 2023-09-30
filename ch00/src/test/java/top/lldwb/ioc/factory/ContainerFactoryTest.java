@@ -14,6 +14,8 @@ class ContainerFactoryTest {
         ContainerFactory factory = new ContainerFactory("top.lldwb.ioc.test.example");
 //        log.debug(factory.getBean(UserController.class).getClass().getName());
         factory.getBean(UserController.class).add();
+        factory.getBean("userController",UserController.class).add();
+        ((UserController)factory.getBean("userController")).add();
     }
 
     @Test

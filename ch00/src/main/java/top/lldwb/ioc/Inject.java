@@ -5,12 +5,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target({ElementType.FIELD,ElementType.METHOD})
+@Target({ElementType.FIELD, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Inject {
     /**
-     * 声明一个value属性，用来定义Bean的别名
-     * 用做容器中的key
+     * 当有多个实现类的时候就需要指定需要注入的实现类
+     *
      * @return
      */
     String value() default "";

@@ -2,6 +2,7 @@ package top.lldwb.ioc.test.example.dao.impl;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Repository;
+import top.lldwb.ioc.Bean;
 import top.lldwb.ioc.test.example.dao.UserDao;
 
 /**
@@ -11,7 +12,7 @@ import top.lldwb.ioc.test.example.dao.UserDao;
 //@Component("userDao")
 //@Repository 持久层(dao)专属注解，取代 @Component
 @Repository("userDaoFImpl")
-
+@Bean(value = "userDaoFImpl",sole = false)
 @Slf4j
 public class UserDaoFImpl implements UserDao {
     @Override
