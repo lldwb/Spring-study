@@ -9,6 +9,14 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
 
     /**
+     * 可以通过构造方法来注入
+     * @param userDao
+     */
+    public UserServiceImpl(UserDao userDao) {
+        this.userDao = userDao;
+    }
+
+    /**
      * 这个set方法是专门用于提供给容器注入Bean
      *
      * @param userDao

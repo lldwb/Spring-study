@@ -2,14 +2,37 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="userDao" class="org.example.dao.impl.UserDaoImpl"/>
+    <bean id="userDao" class="org.example.dao.impl.UserDaoImpl">
+        <constructor-arg name="string" value="值"/>
+        <constructor-arg name="integer" value="123"/>
+        <constructor-arg name="list">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+            </list>
+        </constructor-arg>
+        <constructor-arg name="set">
+            <set>
+                <value>set1</value>
+                <value>set2</value>
+            </set>
+        </constructor-arg>
+        <constructor-arg name="map">
+            <map>
+                <entry key="key" value="value"/>
+            </map>
+        </constructor-arg>
+    </bean>
     <bean id="userService" class="org.example.service.impl.UserServiceImpl">
         <!-- 注入UserDao -->
         <!--
         name对应的是set方法去除set然后将下一个首字母改成小写的名称
         ref属性引用需要注入的bean的id，这样容器就会自动将UserServiceImpl这个bean通过set方法注入到UserService中
+        value注入的值
          -->
-        <property name="userDao" ref="userDao"/>
+<!--        <property name="userDao" ref="userDao"/>-->
+        <!-- 通过构造方法来注入，name对应的是构造方法的参数名 -->
+        <constructor-arg name="userDao" ref="userDao"/>
     </bean>
     <bean id="userController" class="org.example.controller.UserController">
         <property name="userService" ref="userService"/>
