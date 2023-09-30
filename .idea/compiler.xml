@@ -14,6 +14,7 @@
         <module name="ch04" />
         <module name="ch01" />
         <module name="ch02" />
+        <module name="ch00" />
       </profile>
     </annotationProcessing>
   </component>
