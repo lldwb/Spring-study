@@ -1,0 +1,61 @@
+2023-10-08 08:54:02 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4060e511
+2023-10-08 08:54:02 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-08 08:54:02 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-08 08:54:02 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-08 08:54:02 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-08 08:54:02 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-08 08:54:02 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-08 08:54:02 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userController'
+2023-10-08 08:54:02 [main] DEBUG org.example.config.AppConfig - org.example.service.impl.UserServiceImpl@66e5c867
+2023-10-08 08:54:02 [main] DEBUG org.example.config.AppConfig - org.example.service.impl.UserServiceImpl@5e40f17f
+2023-10-08 08:54:02 [main] DEBUG org.example.config.AppConfig - org.example.service.impl.UserServiceImpl@21e2b17c
+2023-10-08 08:54:02 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@27556199
+2023-10-08 08:54:02 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@27556199
+2023-10-08 08:54:02 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@27556199
+2023-10-08 08:54:02 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@27556199
+2023-10-08 09:00:43 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ce1f030b
+2023-10-08 09:00:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-08 09:00:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-08 09:00:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-08 09:00:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-08 09:00:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-08 09:00:44 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-08 09:00:44 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-10-08 09:00:44 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userController'
+2023-10-08 09:00:44 [main] DEBUG org.example.config.AppConfig - org.example.service.impl.UserServiceImpl@a74910ed
+2023-10-08 09:00:44 [main] DEBUG org.example.config.AppConfig - org.example.service.impl.UserServiceImpl@a74910ed
+2023-10-08 09:00:44 [main] DEBUG org.example.config.AppConfig - org.example.service.impl.UserServiceImpl@a74910ed
+2023-10-08 09:00:44 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@a74910ed
+2023-10-08 09:00:44 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@a74910ed
+2023-10-08 09:00:44 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@a74910ed
+2023-10-08 09:00:44 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@a74910ed
+2023-10-08 09:01:14 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ab7db5db
+2023-10-08 09:01:14 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-08 09:01:14 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-08 09:01:14 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-08 09:01:14 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-08 09:01:14 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-08 09:01:14 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-08 09:01:14 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userService'
+2023-10-08 09:01:14 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userController'
+2023-10-08 09:01:14 [main] DEBUG org.example.config.AppConfig - org.example.service.impl.UserServiceImpl@15d83722
+2023-10-08 09:01:14 [main] DEBUG org.example.config.AppConfig - org.example.service.impl.UserServiceImpl@fdfef1eb
+2023-10-08 09:01:14 [main] DEBUG org.example.config.AppConfig - org.example.service.impl.UserServiceImpl@d83c3133
+2023-10-08 09:01:14 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@3bc40773
+2023-10-08 09:01:14 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@3bc40773
+2023-10-08 09:01:14 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@3bc40773
+2023-10-08 09:01:14 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@3bc40773
+2023-10-08 09:52:10 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c2f9c033
+2023-10-08 09:52:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-08 09:52:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-08 09:52:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-08 09:52:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-08 09:52:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-08 09:52:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-08 09:52:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.example.controller.UserController'
+2023-10-08 09:52:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.example.service.impl.UserServiceImpl'
+2023-10-08 09:52:10 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'org.example.controller.UserController' via constructor to bean named 'org.example.service.impl.UserServiceImpl'
+2023-10-08 09:52:10 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@a6db28fa
+2023-10-08 09:52:10 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@a6db28fa
+2023-10-08 09:52:10 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@853fa94e
+2023-10-08 09:52:10 [main] DEBUG org.example.service.impl.UserServiceImpl - 添加用户org.example.service.impl.UserServiceImpl@853fa94e

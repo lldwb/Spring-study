@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+    <bean id="user" class="org.example.User"/>
+
+    <bean id="userAspect" class="org.example.aop.UserAspect"/>
+    <bean id="serviceAspect" class="org.example.aop.ServiceAspect"/>
+
+    <!-- AOP配置，proxy-target-class 属性设置为 true
+     表示强制使用 CGLIB 生成代理，无论目标对象有没有实现接口-->
+    <aop:config>
+        <!-- 配置切入点，Spring 使用了 AspectJ 的切入点表达式来实现了 AOP 中切入点的概念，
+        通过切入点表达式可以找到需要增强的目标方法，而找到的这些目标方法就称之为连接点。
+        id属性指定一个切入点的唯一标识，expression用于声明切入点表达式，切入点表达式的用法：
+        execution(访问修饰符 包名.类名.方法名(参数类型))
+         也可以使用通配符(*)的方法扩大切入点的范围 比如 包名.*.*(..) -->
+        <aop:pointcut id="userPointcut" expression="execution(* org.example.User.*(..))"/>
+        <!-- 配置通知器(也就是切面)，使用 pointcut-ref 引用上面装配的切面的id -->
+<!--        <aop:advisor advice-ref="userAspect" pointcut-ref="userPointcut"/>-->
+        <!-- 配置切面,ref 引用切面的bean的id，pointcut-ref 切入点表达式 -->
+        <aop:aspect ref="serviceAspect">
+            <!-- 执行顺序是随机的，是通过反射获取顺序决定的 -->
+            <!-- 配置自定义通知，method 属性指定通知的方法名，后置通知 returning属性 需要对应返回值 -->
+            <aop:before method="before" pointcut-ref="userPointcut"/>
+            <aop:after-returning method="afterReturning" pointcut-ref="userPointcut" returning="returnValue"/>
+            <aop:around method="around" pointcut-ref="userPointcut"/>
+            <aop:after-throwing method="afterThrowing" pointcut-ref="userPointcut" throwing="e"/>
+            <aop:after method="after" pointcut-ref="userPointcut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

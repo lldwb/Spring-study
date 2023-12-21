@@ -1,0 +1,113 @@
+2023-10-13 09:36:46 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@ac5a6181
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 10 bean definitions from class path resource [application.xml]
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#4'
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-13 09:36:47 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'serviceAspect'
+2023-10-13 09:36:47 [main] INFO org.example.aop.ServiceAspect - 自定义前置通知,参数[Ljava.lang.Object;@416dee3c
+2023-10-13 09:38:05 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c4574e1f
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 10 bean definitions from class path resource [application.xml]
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#4'
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-13 09:38:05 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'serviceAspect'
+2023-10-13 09:38:05 [main] INFO org.example.aop.ServiceAspect - 自定义前置通知,参数[Ljava.lang.Object;@26cc450c
+2023-10-13 09:38:32 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@751a7fdd
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 10 bean definitions from class path resource [application.xml]
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#4'
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-13 09:38:32 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'serviceAspect'
+2023-10-13 09:38:32 [main] INFO org.example.aop.ServiceAspect - 自定义前置通知,参数[Ljava.lang.Object;@a09bbc30
+2023-10-13 09:38:32 [main] INFO org.example.aop.ServiceAspect - 环绕
+2023-10-13 09:38:32 [main] INFO org.example.User - user
+2023-10-13 09:38:32 [main] INFO org.example.aop.ServiceAspect - 最终通知
+2023-10-13 09:38:32 [main] INFO org.example.aop.ServiceAspect - 后置通知,参数[Ljava.lang.Object;@a09bbc30
+2023-10-13 09:38:32 [main] INFO org.example.aop.ServiceAspect - 返回值null
+2023-10-13 09:43:40 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c41753c2
+2023-10-13 09:43:40 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 10 bean definitions from class path resource [application.xml]
+2023-10-13 09:43:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-13 09:43:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-13 09:43:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2023-10-13 09:43:41 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2023-10-13 09:43:41 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2023-10-13 09:43:41 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2023-10-13 09:43:41 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#4'
+2023-10-13 09:43:41 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-13 09:43:41 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'serviceAspect'
+2023-10-13 09:43:41 [main] INFO org.example.aop.ServiceAspect - 自定义前置通知,参数[Ljava.lang.Object;@1929af04
+2023-10-13 09:43:41 [main] INFO org.example.aop.ServiceAspect - 环绕
+2023-10-13 09:43:41 [main] INFO org.example.User - user
+2023-10-13 09:43:41 [main] INFO org.example.aop.ServiceAspect - 最终通知
+2023-10-13 09:43:41 [main] INFO org.example.aop.ServiceAspect - 异常null
+2023-10-13 10:08:50 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f1c08368
+2023-10-13 10:08:50 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-13 10:08:50 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-13 10:08:50 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-13 10:08:50 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-13 10:08:50 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-13 10:08:50 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-13 10:08:50 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-13 10:08:50 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userProxy'
+2023-10-13 10:08:50 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userProxy' defined in org.example.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.User]: Factory method 'userProxy' threw exception; nested exception is java.lang.IllegalStateException: No BeanFactory available anymore (probably due to serialization) - cannot resolve interceptor names [org.example.aop.UserAspect]
+2023-10-13 10:10:00 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@dcf66d36
+2023-10-13 10:10:00 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-13 10:10:00 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-13 10:10:00 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-13 10:10:00 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-13 10:10:00 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-13 10:10:00 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-13 10:10:00 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-13 10:10:45 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@e0892c3
+2023-10-13 10:10:45 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-13 10:10:45 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch19\target\classes\org\example\aop\ServiceAspect.class]
+2023-10-13 10:10:45 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-13 10:10:45 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-13 10:10:45 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-13 10:10:45 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-13 10:10:45 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-13 10:10:45 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-13 10:10:45 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object org.example.aop.ServiceAspect.around(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-10-13 10:10:45 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.example.aop.ServiceAspect.before(org.aspectj.lang.JoinPoint)
+2023-10-13 10:10:45 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.example.aop.ServiceAspect.after(org.aspectj.lang.JoinPoint)
+2023-10-13 10:10:45 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.example.aop.ServiceAspect.afterReturning(org.aspectj.lang.JoinPoint,java.lang.Object)
+2023-10-13 10:10:45 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.example.aop.ServiceAspect.afterThrowing(org.aspectj.lang.JoinPoint,java.lang.Exception)
+2023-10-13 10:10:45 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'serviceAspect'
+2023-10-13 10:11:11 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b8adff3e
+2023-10-13 10:11:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-13 10:11:11 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch19\target\classes\org\example\User.class]
+2023-10-13 10:11:11 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch19\target\classes\org\example\aop\ServiceAspect.class]
+2023-10-13 10:11:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-13 10:11:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-13 10:11:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-13 10:11:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-13 10:11:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-13 10:11:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-13 10:11:11 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object org.example.aop.ServiceAspect.around(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2023-10-13 10:11:11 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.example.aop.ServiceAspect.before(org.aspectj.lang.JoinPoint)
+2023-10-13 10:11:11 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.example.aop.ServiceAspect.after(org.aspectj.lang.JoinPoint)
+2023-10-13 10:11:11 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.example.aop.ServiceAspect.afterReturning(org.aspectj.lang.JoinPoint,java.lang.Object)
+2023-10-13 10:11:11 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.example.aop.ServiceAspect.afterThrowing(org.aspectj.lang.JoinPoint,java.lang.Exception)
+2023-10-13 10:11:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-13 10:11:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'serviceAspect'
+2023-10-13 10:11:11 [main] INFO org.example.aop.ServiceAspect - 环绕
+2023-10-13 10:11:11 [main] INFO org.example.aop.ServiceAspect - 自定义前置通知,参数[Ljava.lang.Object;@4c3527eb
+2023-10-13 10:11:11 [main] INFO org.example.User - user
+2023-10-13 10:11:11 [main] INFO org.example.aop.ServiceAspect - 后置通知,参数[Ljava.lang.Object;@4c3527eb
+2023-10-13 10:11:11 [main] INFO org.example.aop.ServiceAspect - 返回值null
+2023-10-13 10:11:11 [main] INFO org.example.aop.ServiceAspect - 最终通知

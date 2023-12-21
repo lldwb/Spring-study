@@ -1,0 +1,54 @@
+2023-10-12 15:15:16 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9a66d640
+2023-10-12 15:15:16 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [application.xml]
+2023-10-12 15:15:16 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-12 15:15:16 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-12 15:15:16 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userProxy'
+2023-10-12 15:15:16 [main] DEBUG org.springframework.aop.framework.ProxyFactoryBean - Advice has changed; re-caching singleton instance
+2023-10-12 15:15:16 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:15:16 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:15:16 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:15:16 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:15:16 [main] INFO org.example.aop.UserAspect - 环绕通知前
+2023-10-12 15:15:16 [main] INFO org.example.aop.UserAspect - 环绕通知后
+2023-10-12 15:28:17 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b244e28b
+2023-10-12 15:28:18 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'user' with a different definition: replacing [Generic bean: class [org.example.User]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [application.xml]] with [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2023-10-12 15:28:18 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [application.xml]
+2023-10-12 15:28:18 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-12 15:28:18 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-12 15:33:24 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8764833e
+2023-10-12 15:33:24 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 5 bean definitions from class path resource [application.xml]
+2023-10-12 15:33:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-12 15:33:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-12 15:33:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2023-10-12 15:33:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-12 15:33:24 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:34:11 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@80fd8c57
+2023-10-12 15:34:11 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 5 bean definitions from class path resource [application.xml]
+2023-10-12 15:34:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-12 15:34:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-12 15:34:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2023-10-12 15:34:11 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-12 15:34:11 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:34:43 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7ae68612
+2023-10-12 15:34:43 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 5 bean definitions from class path resource [application.xml]
+2023-10-12 15:34:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-12 15:34:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-12 15:34:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2023-10-12 15:34:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-12 15:34:43 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:34:43 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:34:43 [main] INFO org.example.aop.UserAspect - 环绕通知前
+2023-10-12 15:34:43 [main] INFO org.example.aop.UserAspect - 环绕通知后
+2023-10-12 15:54:33 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1eca93a0
+2023-10-12 15:54:33 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 5 bean definitions from class path resource [application.xml]
+2023-10-12 15:54:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-10-12 15:54:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'user'
+2023-10-12 15:54:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2023-10-12 15:54:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'userAspect'
+2023-10-12 15:54:33 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:54:33 [main] DEBUG org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor - Found exception handler method on throws advice: public void org.example.aop.UserAspect.afterThrowing(java.lang.Exception)
+2023-10-12 15:54:33 [main] INFO org.example.aop.UserAspect - 环绕通知前
+2023-10-12 15:54:33 [main] INFO org.example.aop.UserAspect - 前置通知...
+2023-10-12 15:54:33 [main] INFO org.example.User - user
+2023-10-12 15:54:33 [main] INFO org.example.aop.UserAspect - 后置通知...
+2023-10-12 15:54:33 [main] INFO org.example.aop.UserAspect - 环绕通知后

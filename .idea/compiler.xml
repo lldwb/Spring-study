@@ -9,12 +9,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ch09" />
         <module name="ch07" />
+        <module name="ch18" />
+        <module name="ch19" />
         <module name="ch05" />
+        <module name="ch16" />
+        <module name="ch17" />
         <module name="ch03" />
+        <module name="ch14" />
         <module name="ch04" />
         <module name="ch01" />
+        <module name="ch12" />
         <module name="ch02" />
         <module name="ch00" />
+        <module name="ch11" />
+        <module name="ch22" />
       </profile>
     </annotationProcessing>
   </component>

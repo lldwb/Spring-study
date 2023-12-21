@@ -1,0 +1,152 @@
+2023-10-11 09:07:57 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@886c730f
+2023-10-11 09:07:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-11 09:07:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-11 09:07:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-11 09:07:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-11 09:07:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-11 09:07:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-11 09:07:57 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:07:57 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:07:57 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:07:57 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:07:57 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'pool.size' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:07:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-11 09:07:57 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionPool' defined in org.example.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.ConnectionPool]: Factory method 'connectionPool' threw exception; nested exception is java.lang.RuntimeException: java.sql.SQLException: The url cannot be null
+2023-10-11 09:13:24 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6b3d6b2e
+2023-10-11 09:13:24 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-11 09:13:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-11 09:13:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-11 09:13:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-11 09:13:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-11 09:13:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-11 09:13:25 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:13:25 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:13:25 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:13:25 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:13:25 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'pool.size' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:13:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-11 09:13:25 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionPool' defined in org.example.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.ConnectionPool]: Factory method 'connectionPool' threw exception; nested exception is java.lang.NullPointerException
+2023-10-11 09:14:22 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@822926e7
+2023-10-11 09:14:22 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-11 09:14:22 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.example.config.AppConfig]; nested exception is java.io.FileNotFoundException: class path resource [resources:jdbc.properties] cannot be opened because it does not exist
+2023-10-11 09:15:01 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49866baf
+2023-10-11 09:15:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-11 09:15:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-11 09:15:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-11 09:15:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-11 09:15:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-11 09:15:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-11 09:15:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'pool.size' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-11 09:15:01 [main] DEBUG org.example.config.AppConfig - jdbc:mysql://www:3306/lldwb
+2023-10-11 09:15:01 [main] DEBUG org.example.config.AppConfig - lldwb
+2023-10-11 09:15:01 [main] DEBUG org.example.config.AppConfig - 2FANEiC2nAynZtyt
+2023-10-11 09:15:01 [main] DEBUG org.example.config.AppConfig - 10
+2023-10-11 09:15:01 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionPool' defined in org.example.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.ConnectionPool]: Factory method 'connectionPool' threw exception; nested exception is java.lang.NullPointerException
+2023-10-11 09:15:48 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@fe7cf713
+2023-10-11 09:15:48 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-11 09:15:49 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-11 09:15:49 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-11 09:15:49 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-11 09:15:49 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-11 09:15:49 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-11 09:15:49 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:49 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:49 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:49 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:49 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'pool.size' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:15:49 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-11 09:15:49 [main] DEBUG org.example.config.AppConfig - jdbc:mysql://www:3306/lldwb
+2023-10-11 09:15:49 [main] DEBUG org.example.config.AppConfig - lldwb
+2023-10-11 09:15:49 [main] DEBUG org.example.config.AppConfig - 2FANEiC2nAynZtyt
+2023-10-11 09:15:49 [main] DEBUG org.example.config.AppConfig - 10
+2023-10-11 09:15:49 [main] DEBUG org.example.ConnectionPool - null
+2023-10-11 09:15:49 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionPool' defined in org.example.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.ConnectionPool]: Factory method 'connectionPool' threw exception; nested exception is java.lang.NullPointerException
+2023-10-11 09:16:17 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@282900b1
+2023-10-11 09:16:17 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-11 09:16:17 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-11 09:16:17 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-11 09:16:17 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-11 09:16:17 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-11 09:16:17 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-11 09:16:17 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:16:17 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:16:17 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:16:17 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:16:17 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'pool.size' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:16:17 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-11 09:16:17 [main] DEBUG org.example.config.AppConfig - jdbc:mysql://www:3306/lldwb
+2023-10-11 09:16:17 [main] DEBUG org.example.config.AppConfig - lldwb
+2023-10-11 09:16:17 [main] DEBUG org.example.config.AppConfig - 2FANEiC2nAynZtyt
+2023-10-11 09:16:17 [main] DEBUG org.example.config.AppConfig - 10
+2023-10-11 09:16:17 [main] DEBUG org.example.ConnectionPool - null
+2023-10-11 09:16:17 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionPool' defined in org.example.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.ConnectionPool]: Factory method 'connectionPool' threw exception; nested exception is java.lang.NullPointerException
+2023-10-11 09:21:09 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7bc2b313
+2023-10-11 09:21:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-11 09:21:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-11 09:21:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-11 09:21:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-11 09:21:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-11 09:21:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-11 09:21:10 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:21:10 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:21:10 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:21:10 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:21:10 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'pool.size' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:21:10 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-11 09:21:10 [main] DEBUG org.example.config.AppConfig - jdbc:mysql://www:3306/lldwb
+2023-10-11 09:21:10 [main] DEBUG org.example.config.AppConfig - lldwb
+2023-10-11 09:21:10 [main] DEBUG org.example.config.AppConfig - 2FANEiC2nAynZtyt
+2023-10-11 09:21:10 [main] DEBUG org.example.config.AppConfig - 10
+2023-10-11 09:21:10 [main] DEBUG org.example.ConnectionPool - null
+2023-10-11 09:21:10 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionPool' defined in org.example.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.ConnectionPool]: Factory method 'connectionPool' threw exception; nested exception is java.lang.NullPointerException
+2023-10-11 09:22:09 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@392f1afc
+2023-10-11 09:22:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-11 09:22:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-11 09:22:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-11 09:22:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-11 09:22:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-11 09:22:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-11 09:22:09 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:22:09 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:22:09 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:22:09 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:22:09 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'pool.size' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:22:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-11 09:22:09 [main] DEBUG org.example.config.AppConfig - jdbc:mysql://www:3306/lldwb
+2023-10-11 09:22:09 [main] DEBUG org.example.config.AppConfig - lldwb
+2023-10-11 09:22:09 [main] DEBUG org.example.config.AppConfig - 2FANEiC2nAynZtyt
+2023-10-11 09:22:09 [main] DEBUG org.example.config.AppConfig - 10
+2023-10-11 09:22:09 [main] DEBUG org.example.ConnectionPool - 10
+2023-10-11 09:23:20 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-11 09:23:20 [main] INFO org.example.ConnectionPoolTest - Pool size: 9
+2023-10-11 09:23:20 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-11 09:23:20 [main] INFO org.example.ConnectionPoolTest - Pool size: 9
+2023-10-11 09:23:20 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-11 09:29:00 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f8bb039
+2023-10-11 09:29:00 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-11 09:29:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-11 09:29:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-11 09:29:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-11 09:29:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-11 09:29:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-11 09:29:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:29:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:29:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:29:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:29:01 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'pool.size' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-11 09:29:01 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-11 09:29:01 [main] DEBUG org.example.config.AppConfig - jdbc:mysql://www:3306/lldwb
+2023-10-11 09:29:01 [main] DEBUG org.example.config.AppConfig - lldwb
+2023-10-11 09:29:01 [main] DEBUG org.example.config.AppConfig - 2FANEiC2nAynZtyt
+2023-10-11 09:29:01 [main] DEBUG org.example.config.AppConfig - 10
+2023-10-11 09:29:01 [main] DEBUG org.example.ConnectionPool - 10
+2023-10-11 09:31:11 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-11 09:31:11 [main] INFO org.example.ConnectionPoolTest - Pool size: 9
+2023-10-11 09:31:11 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-11 09:31:11 [main] INFO org.example.ConnectionPoolTest - Pool size: 9
+2023-10-11 09:31:11 [main] INFO org.example.ConnectionPoolTest - Pool size: 10

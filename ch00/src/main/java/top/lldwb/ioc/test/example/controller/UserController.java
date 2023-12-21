@@ -14,7 +14,7 @@ import top.lldwb.ioc.test.example.service.UserService;
 @Bean("userController")
 public class UserController {
 //    @Autowired
-    @Inject
+//    @Inject
     private UserService userService;
 
 //    public UserController(UserService userService) {

@@ -1,0 +1,156 @@
+2023-10-07 09:19:09 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@40ca919b
+2023-10-07 09:19:09 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\ABCContext.class]
+2023-10-07 09:19:09 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\A.class]
+2023-10-07 09:19:09 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\B.class]
+2023-10-07 09:19:09 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\C.class]
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'ABCContext'
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'a'
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'b'
+2023-10-07 09:19:09 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'c'
+2023-10-07 09:19:59 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2eafcead
+2023-10-07 09:19:59 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\ABCContext.class]
+2023-10-07 09:19:59 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\A.class]
+2023-10-07 09:19:59 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\B.class]
+2023-10-07 09:19:59 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\C.class]
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'ABCContext'
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'a'
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'b'
+2023-10-07 09:19:59 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'c'
+2023-10-07 09:19:59 [main] DEBUG org.example.service.ABCContext - 123
+2023-10-07 09:24:43 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ec6787d
+2023-10-07 09:24:43 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\ABCContext.class]
+2023-10-07 09:24:43 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\A.class]
+2023-10-07 09:24:43 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\B.class]
+2023-10-07 09:24:43 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\C.class]
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'ABCContext'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'a'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'b'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'c'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'a'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'b'
+2023-10-07 09:24:43 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'c'
+2023-10-07 09:24:43 [main] DEBUG org.example.service.ABCContext - 123
+2023-10-07 09:24:43 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:24:43 [main] DEBUG org.example.service.ABCContext - true
+2023-10-07 09:24:43 [main] DEBUG org.example.service.impl.A - A
+2023-10-07 09:24:43 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:24:43 [main] DEBUG org.example.service.ABCContext - false
+2023-10-07 09:24:43 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:24:43 [main] DEBUG org.example.service.ABCContext - false
+2023-10-07 09:27:57 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@fe927926
+2023-10-07 09:27:57 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\ABCContext.class]
+2023-10-07 09:27:57 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\A.class]
+2023-10-07 09:27:57 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\B.class]
+2023-10-07 09:27:57 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\C.class]
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'ABCContext'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'a'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'b'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'c'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'a'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'b'
+2023-10-07 09:27:57 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'c'
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - 123
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:27:57 [main] DEBUG org.example.service.impl.A - 执行org.example.service.impl.A
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - 123
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:27:57 [main] DEBUG org.example.service.impl.B - 执行org.example.service.impl.B
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - 123
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:27:57 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:27:57 [main] DEBUG org.example.service.impl.C - 执行org.example.service.impl.C
+2023-10-07 09:35:33 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75743a93
+2023-10-07 09:35:33 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\ABCContext.class]
+2023-10-07 09:35:33 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\A.class]
+2023-10-07 09:35:33 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\B.class]
+2023-10-07 09:35:33 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\C.class]
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'ABCContext'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'a'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'b'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'c'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'a'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'b'
+2023-10-07 09:35:33 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'c'
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - 选择对应的算法
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:35:33 [main] DEBUG org.example.service.impl.A - 执行org.example.service.impl.A
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - 选择对应的算法
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:35:33 [main] DEBUG org.example.service.impl.B - 执行org.example.service.impl.B
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - 选择对应的算法
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:35:33 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:35:33 [main] DEBUG org.example.service.impl.C - 执行org.example.service.impl.C
+2023-10-07 09:59:36 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bcaed010
+2023-10-07 09:59:36 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\ABCContext.class]
+2023-10-07 09:59:36 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\A.class]
+2023-10-07 09:59:36 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\B.class]
+2023-10-07 09:59:36 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\学习\Java\IDE项目\Spring-study\ch11\target\classes\org\example\service\impl\C.class]
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application.xml]
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'ABCContext'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'a'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'b'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'c'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'a'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'b'
+2023-10-07 09:59:36 [main] DEBUG org.springframework.beans.factory.support.ConstructorResolver - Autowiring by type from bean name 'ABCContext' via constructor to bean named 'c'
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - 选择对应的算法
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:59:36 [main] DEBUG org.example.service.impl.A - 执行org.example.service.impl.A
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - 选择对应的算法
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:59:36 [main] DEBUG org.example.service.impl.B - 执行org.example.service.impl.B
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - 选择对应的算法
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - a
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - b
+2023-10-07 09:59:36 [main] DEBUG org.example.service.ABCContext - c
+2023-10-07 09:59:36 [main] DEBUG org.example.service.impl.C - 执行org.example.service.impl.C

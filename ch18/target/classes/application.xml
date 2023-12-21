@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="user" class="org.example.User"/>
+
+    <bean id="userAspect" class="org.example.aop.UserAspect"/>
+
+    <bean id="userProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="user"/>
+        <property name="interceptorNames">
+            <list>
+                <value>userAspect</value>
+            </list>
+        </property>
+    </bean>
+</beans>

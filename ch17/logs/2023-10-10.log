@@ -1,0 +1,300 @@
+2023-10-10 10:52:29 [main] DEBUG org.example.invocation.TaurenInvocationHandler - ntr
+2023-10-10 10:52:29 [main] DEBUG org.example.Queen - 视频
+2023-10-10 10:54:54 [main] DEBUG org.example.invocation.TaurenInvocationHandler - ntr
+2023-10-10 10:54:54 [main] DEBUG org.example.Queen - 视频
+2023-10-10 15:33:39 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b837fb67
+2023-10-10 15:33:39 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-10 15:33:39 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-10 15:33:39 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-10 15:33:39 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-10 15:33:39 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-10 15:33:39 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-10 15:33:39 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 15:33:39 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 15:33:39 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 15:33:39 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 15:33:39 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-10 15:33:39 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionPool' defined in org.example.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.ConnectionPool]: Factory method 'connectionPool' threw exception; nested exception is java.lang.NullPointerException
+2023-10-10 15:42:16 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@a422d634
+2023-10-10 15:42:16 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@a422d634
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@207d01e1
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@fd58d292
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@207d01e1
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@fd58d292
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@80c50150
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@43dabb6a
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@80c50150
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@43dabb6a
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@68669bd2
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@b7bf4772
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@68669bd2
+2023-10-10 15:42:17 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@b7bf4772
+2023-10-10 15:42:18 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@c3a2f802
+2023-10-10 15:42:18 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@1dacb434
+2023-10-10 15:42:18 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@c3a2f802
+2023-10-10 15:42:18 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@1dacb434
+2023-10-10 15:42:18 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@926dffe5
+2023-10-10 15:42:18 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@8bd2edd7
+2023-10-10 15:42:18 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@926dffe5
+2023-10-10 15:42:18 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@8bd2edd7
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@116de1a0
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@f40dd000
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@116de1a0
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@f40dd000
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@19e9926c
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@7d176b05
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@19e9926c
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@7d176b05
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@4abf395b
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@786b56e
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@4abf395b
+2023-10-10 15:42:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@786b56e
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e77603d0
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@c4595297
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e77603d0
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@c4595297
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@9fd46e3b
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@92e2efcb
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@9fd46e3b
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@92e2efcb
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@4611815
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@8522326
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@4611815
+2023-10-10 15:42:20 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@8522326
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e0741a2d
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@43aea481
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e0741a2d
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@43aea481
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@1d4788fe
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@7c6cf27f
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@1d4788fe
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@7c6cf27f
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@7990dc9
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e281384d
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@7990dc9
+2023-10-10 15:42:21 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e281384d
+2023-10-10 15:42:22 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@45959a26
+2023-10-10 15:42:22 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@d0e601fc
+2023-10-10 15:42:22 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@45959a26
+2023-10-10 15:42:22 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@d0e601fc
+2023-10-10 15:42:22 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@2104a1ae
+2023-10-10 15:42:22 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@140dc174
+2023-10-10 15:42:22 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@2104a1ae
+2023-10-10 15:42:22 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@140dc174
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@75813aea
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@512e0559
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@75813aea
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@512e0559
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@beb9bcff
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@43079dfc
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@beb9bcff
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@43079dfc
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@5c0dbbd6
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@92bff39f
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@5c0dbbd6
+2023-10-10 15:42:23 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@92bff39f
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@1adac2b0
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@d9b0ce00
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@1adac2b0
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@d9b0ce00
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@10d9f983
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e79275ba
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@10d9f983
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e79275ba
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@56c1627d
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@438106e0
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@56c1627d
+2023-10-10 15:42:24 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@438106e0
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@a6161b75
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e5160d0a
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@a6161b75
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e5160d0a
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@15ae723a
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@51eefb27
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@15ae723a
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@51eefb27
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@cdb355b3
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@8c576731
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@cdb355b3
+2023-10-10 15:42:25 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@8c576731
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@2f2413b3
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e24b46c5
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@2f2413b3
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e24b46c5
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@71a0dab0
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@bcd7b237
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@71a0dab0
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@bcd7b237
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@44456424
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@f7afad6f
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@44456424
+2023-10-10 15:42:26 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@f7afad6f
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@33d2ade
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@fd5434e4
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@33d2ade
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@fd5434e4
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@865c4528
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@de86d09b
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@865c4528
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@de86d09b
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@f38c17d5
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@be9b04ef
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@f38c17d5
+2023-10-10 15:42:27 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@be9b04ef
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@100d45bb
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@fc893c5a
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@100d45bb
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@fc893c5a
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@85bc6981
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@32a2e0e9
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@85bc6981
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@32a2e0e9
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e27e051a
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@9b197d64
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@e27e051a
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@9b197d64
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@650de645
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@212cc1f5
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@650de645
+2023-10-10 15:42:28 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@212cc1f5
+2023-10-10 15:43:14 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@591a2ec1
+2023-10-10 15:43:31 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@b4f4db27
+2023-10-10 15:43:31 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@b4f4db27
+2023-10-10 15:43:31 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@7d55d452
+2023-10-10 15:43:31 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@8fde39bf
+2023-10-10 15:43:31 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@7d55d452
+2023-10-10 15:43:31 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@8fde39bf
+2023-10-10 15:43:42 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@722ffdce
+2023-10-10 15:43:42 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@722ffdce
+2023-10-10 15:43:42 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@c26a2833
+2023-10-10 15:43:42 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@5df52234
+2023-10-10 15:43:42 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@c26a2833
+2023-10-10 15:43:42 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@5df52234
+2023-10-10 15:43:43 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@880bddcc
+2023-10-10 15:43:43 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@c45d954c
+2023-10-10 15:43:43 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@880bddcc
+2023-10-10 15:43:43 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@c45d954c
+2023-10-10 15:43:43 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@53805a2e
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@adea526c
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@3c6e731b
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@93c1777e
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@4017599c
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@1a0b2a4e
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@adea526c
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@3c6e731b
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@93c1777e
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@4017599c
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@1a0b2a4e
+2023-10-10 15:44:19 [main] DEBUG org.example.ConnectionPoolTest - 连接对象com.mysql.cj.jdbc.ConnectionImpl@79fa78e0
+2023-10-10 15:50:04 [main] INFO org.example.ConnectionPoolTest - Pool size: 5
+2023-10-10 15:50:04 [main] INFO org.example.ConnectionPoolTest - Pool size: 4
+2023-10-10 15:50:04 [main] INFO org.example.ConnectionPoolTest - Pool size: 5
+2023-10-10 15:52:00 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 15:52:00 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 15:52:00 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 15:52:00 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 15:52:00 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 15:53:03 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 15:53:03 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 15:53:03 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 15:53:03 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 15:53:03 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 15:58:30 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 15:58:30 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 15:58:30 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 15:58:30 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 15:58:30 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:01:33 [main] INFO org.example.ConnectionPoolTest - Pool size: 2
+2023-10-10 16:01:33 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:01:33 [main] INFO org.example.ConnectionPoolTest - Pool size: 2
+2023-10-10 16:01:33 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:01:33 [main] INFO org.example.ConnectionPoolTest - Pool size: 2
+2023-10-10 16:04:49 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:04:49 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:04:49 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:04:49 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:04:49 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:06:24 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:06:24 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:06:24 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:06:24 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:06:24 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:07:35 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:07:35 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:07:35 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:07:51 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:07:51 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:07:51 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:07:51 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:07:51 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:09:34 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:09:34 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:09:34 [main] INFO org.example.invocation.ConnectionInvocationHandler - true
+2023-10-10 16:09:34 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:09:34 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:09:34 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:10:26 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:10:26 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:10:26 [main] INFO org.example.invocation.ConnectionInvocationHandler - close
+2023-10-10 16:10:26 [main] INFO org.example.invocation.ConnectionInvocationHandler - true
+2023-10-10 16:10:26 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:10:26 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:10:26 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:12:52 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:12:52 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:12:52 [main] INFO org.example.invocation.ConnectionInvocationHandler - true
+2023-10-10 16:12:52 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:12:52 [main] INFO org.example.ConnectionPoolTest - Pool size: 0
+2023-10-10 16:12:52 [main] INFO org.example.invocation.ConnectionInvocationHandler - true
+2023-10-10 16:12:52 [main] INFO org.example.ConnectionPoolTest - Pool size: 1
+2023-10-10 16:23:56 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3220f3ed
+2023-10-10 16:23:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-10 16:23:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-10 16:23:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-10 16:23:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-10 16:23:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-10 16:23:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-10 16:23:56 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 16:23:56 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 16:23:56 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 16:23:56 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 16:23:56 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-10 16:23:56 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionPool' defined in org.example.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.ConnectionPool]: Factory method 'connectionPool' threw exception; nested exception is java.lang.RuntimeException: java.sql.SQLException: The url cannot be null
+2023-10-10 16:24:22 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@413fd256
+2023-10-10 16:24:22 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-10 16:24:22 [main] WARN org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.example.config.AppConfig]; nested exception is java.io.FileNotFoundException: class path resource [resources:jdbc.properties] cannot be opened because it does not exist
+2023-10-10 16:25:25 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@e3c90a70
+2023-10-10 16:25:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-10 16:25:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-10 16:25:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-10 16:25:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-10 16:25:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-10 16:25:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-10 16:25:25 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 16:25:25 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 16:25:25 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 16:25:25 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 16:25:25 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-10 16:25:27 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-10 16:25:27 [main] INFO org.example.ConnectionPoolTest - Pool size: 9
+2023-10-10 16:25:27 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-10 16:25:27 [main] INFO org.example.ConnectionPoolTest - Pool size: 9
+2023-10-10 16:25:27 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-10 20:39:40 [main] DEBUG org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5d6fd5f1
+2023-10-10 20:39:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-10-10 20:39:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-10-10 20:39:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-10-10 20:39:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-10-10 20:39:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-10-10 20:39:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'appConfig'
+2023-10-10 20:39:40 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 20:39:40 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 20:39:40 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 20:39:40 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 20:39:40 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'pool.size' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2023-10-10 20:39:40 [main] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'connectionPool'
+2023-10-10 20:39:43 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-10 20:39:43 [main] INFO org.example.ConnectionPoolTest - Pool size: 9
+2023-10-10 20:39:43 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
+2023-10-10 20:39:43 [main] INFO org.example.ConnectionPoolTest - Pool size: 9
+2023-10-10 20:39:43 [main] INFO org.example.ConnectionPoolTest - Pool size: 10
